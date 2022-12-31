@@ -1,16 +1,16 @@
 const textConfig = {
-  text1: "Hello Vy!",
-  text2: "Anh có cái này muốn hỏi em, trả lời thật lòng nhé ^^",
-  text3: "Tuần sau đi chơi với anh nhé để anh đền cho em dịp noel?",
-  text4: "Em chọn 1 trong 2 option này nha",
-  text6: "Em đi nhé!!!",
-  text5: "Không bao giờ =))",
-  text7: "Tốt rồi giờ em thích quà gì ở miền Nam để anh mua tặng Vy nào :vvvv",
+  text1: "Hello Quỳnh!",
+  text2: "Năm 2023 đến rồi anh có cái này cho em ^^",
+  text3: "Chúc em có một năm thật cháy từng bước hoàn thành dự định của bản thân nhé",
+  text4: "Em thấy trai Nam Định chúc mừng năm mới như thế nào",
+  text6: "Toẹt vời!!!",
+  text5: "Dở tệ á =))",
+  text7: "Anh cũng có dự định cho năm 2023 về công việc những chuyến đi, hình xăm và cả những chiếc áo đôi nữa, em có muốn tham gia cùng anh không :vvvv",
   text8: "Gửi cho anh <3",
-  text9: "10 cốc trà sữa full topping up size",
+  text9: "Em đồng ý hai tay hai chân luôn",
   text10: "Anh biết mà ^^",
   text11:
-    "Nay đi học đi làm vui chứ em 😉😉😉. Anh rất vui vì mình đã kết bạn với nhau",
+    "Anh rất vui vì mình đã kết bạn với nhau thời gian sắp tới mình lên kèo bi a nha",
   text12: "<3 <3 <3",
 };
 
@@ -114,7 +114,7 @@ $(document).ready(function () {
       html: true,
       width: 900,
       padding: "3em",
-      html: "<input type='text' class='form-control' id='txtReason'  placeholder='Whyyy'>",
+      html: "<input type='text' class='form-control' id='txtReason'  placeholder=''>",
       background: '#fff url("img/iput-bg.jpg")',
       backdrop: `
                     rgba(0,0,123,0.4)
@@ -140,7 +140,7 @@ $(document).ready(function () {
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
           onClose: () => {
-            window.location = "https://www.cgv.vn/default/avatar-2.html";
+            window.location = "https://www.google.com/search?q=%C3%A1o+%C4%91%C3%B4i+m%C3%B9a+%C4%91%C3%B4ng&tbm=isch&ved=2ahUKEwj47_LqlqT8AhUSJqYKHRvcBgoQ2-cCegQIABAA&oq=%C3%A1o+%C4%91%C3%B4i&gs_lcp=CgNpbWcQARgHMgQIIxAnMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgQIABBDMgUIABCABDIFCAAQgARQAFgAYM8qaABwAHgAgAGaAYgBmgGSAQMwLjGYAQCqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=ElawY_ieIpLMmAWbuJtQ&bih=689&biw=1440";
           },
         });
       }
